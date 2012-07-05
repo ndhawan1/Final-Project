@@ -1,27 +1,144 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1906" systemVersion="11A511" targetRuntime="iOS.CocoaTouch" nextObjectID="6" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
     <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="902"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
         <scene sceneID="5">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
                 <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="480" height="300"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews/>
+                        <subviews>
+                            <view opaque="NO" contentMode="scaleToFill" id="SdA-bi-WPH">
+                                <rect key="frame" x="0.0" y="0.0" width="3360" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="possibleFINALBACKMAYBE.png" id="q4t-hm-EuE">
+                                        <rect key="frame" x="0.0" y="0.0" width="3360" height="320"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Score: 0" borderStyle="roundedRect" minimumFontSize="17" id="vj9-iy-4VA">
+                                        <rect key="frame" x="7" y="7" width="97" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="platform-1 long.png" id="LXL-l9-hcB">
+                                        <rect key="frame" x="0.0" y="258" width="111" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="platform-1.png" id="Suw-sj-cbI">
+                                        <rect key="frame" x="86" y="220" width="56" height="5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="platform-1.png" id="eRf-SB-Pq3">
+                                        <rect key="frame" x="159" y="191" width="56" height="5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="platform-1 long.png" id="RnN-vI-6tE">
+                                        <rect key="frame" x="177" y="242" width="208" height="5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="platform-1.png" id="Xma-rO-X1y">
+                                        <rect key="frame" x="234" y="157" width="56" height="5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="platform-1.png" id="KG1-bu-rbL">
+                                        <rect key="frame" x="308" y="117" width="56" height="5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fxZ-9x-bPB">
+                                        <rect key="frame" x="1" y="0.0" width="3360" height="320"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                        <state key="normal">
+                                            <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="jump:" destination="2" eventType="touchDown" id="3fW-dn-7Gq"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Spiny2.png" id="7rQ-Fv-ABi">
+                                        <rect key="frame" x="277" y="220" width="32" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="My Character.png" id="68t-hZ-XSs">
+                                        <rect key="frame" x="20" y="220" width="28" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
+                    <connections>
+                        <outlet property="backg" destination="q4t-hm-EuE" id="nSt-he-O5t"/>
+                        <outlet property="enemySpike" destination="7rQ-Fv-ABi" id="37Z-vh-UiF"/>
+                        <outlet property="gameOver" destination="xet-fX-38D" id="CiN-iy-7mU"/>
+                        <outlet property="masterView" destination="SdA-bi-WPH" id="3FX-6Z-JAy"/>
+                        <outlet property="myChar" destination="68t-hZ-XSs" id="OKY-Y6-ZgH"/>
+                        <outlet property="pl1" destination="LXL-l9-hcB" id="Tq7-Ee-Nxy"/>
+                        <outlet property="pl2" destination="Suw-sj-cbI" id="5wz-u3-hw6"/>
+                        <outlet property="pl3" destination="eRf-SB-Pq3" id="Ejy-wd-CYB"/>
+                        <outlet property="pl4" destination="Xma-rO-X1y" id="R7g-B7-K5A"/>
+                        <outlet property="pl5" destination="KG1-bu-rbL" id="YuS-Da-3p4"/>
+                        <outlet property="pl6" destination="RnN-vI-6tE" id="VUU-MY-tVo"/>
+                        <outlet property="scores" destination="vj9-iy-4VA" id="quU-PF-Opg"/>
+                    </connections>
                 </viewController>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" text="Game Over!" textAlignment="center" id="xet-fX-38D">
+                    <rect key="frame" x="0.0" y="0.0" width="331" height="194"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.1467179656" green="1" blue="0.16648947889999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="textColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
             </objects>
+            <point key="canvasLocation" x="66" y="81"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="My Character.png" width="300" height="384"/>
+        <image name="Spiny2.png" width="924" height="924"/>
+        <image name="platform-1 long.png" width="250" height="28"/>
+        <image name="platform-1.png" width="102" height="28"/>
+        <image name="possibleFINALBACKMAYBE.png" width="4100" height="320"/>
+    </resources>
+    <classes>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="jump:"/>
+                <relationship kind="outlet" name="backg" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="enemySpike" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="gameOver" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="masterView" candidateClass="UIView"/>
+                <relationship kind="outlet" name="myChar" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="pl1" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="pl2" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="pl3" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="pl4" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="pl5" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="pl6" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="scores" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedOrientationMetrics key="orientation" orientation="landscapeRight"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>

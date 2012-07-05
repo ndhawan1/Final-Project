@@ -20,6 +20,24 @@
 		3F52566415A21A35005F0410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F52564515A21A35005F0410 /* Foundation.framework */; };
 		3F52566C15A21A35005F0410 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F52566A15A21A35005F0410 /* InfoPlist.strings */; };
 		3F52566F15A21A35005F0410 /* finalProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F52566E15A21A35005F0410 /* finalProjectTests.m */; };
+		3F52567915A22C72005F0410 /* My Character.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F52567815A22C72005F0410 /* My Character.png */; };
+		3F52567B15A241FA005F0410 /* FULL BACK.psd in Resources */ = {isa = PBXBuildFile; fileRef = 3F52567A15A241FA005F0410 /* FULL BACK.psd */; };
+		3F52567D15A242B2005F0410 /* FULL BACKPNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F52567C15A242B2005F0410 /* FULL BACKPNG.png */; };
+		3F52568715A26F02005F0410 /* platform-1 long.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F52568615A26F02005F0410 /* platform-1 long.png */; };
+		3F52568915A26F0C005F0410 /* platform-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F52568815A26F0C005F0410 /* platform-1.png */; };
+		3F52568D15A3F99F005F0410 /* possibleFINALBACKMAYBE.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F52568C15A3F99F005F0410 /* possibleFINALBACKMAYBE.png */; };
+		3F5256D715A4E177005F0410 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5256D615A4E177005F0410 /* AVFoundation.framework */; };
+		3F5256E015A4E27E005F0410 /* Teleport.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3F5256DF15A4E27E005F0410 /* Teleport.wav */; };
+		3F5256E415A4E5D0005F0410 /* teleporter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F5256E315A4E5D0005F0410 /* teleporter.mp3 */; };
+		3F5256E615A4E6F1005F0410 /* Goomba.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5256E515A4E6F1005F0410 /* Goomba.png */; };
+		3F5256E815A4E73E005F0410 /* Spiny2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F5256E715A4E73E005F0410 /* Spiny2.png */; };
+		3FA9243315A54DCA00F10272 /* BackUp in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9243215A54DCA00F10272 /* BackUp */; };
+		3FA9243615A54DF100F10272 /* BackUp in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9243515A54DF100F10272 /* BackUp */; };
+		3FA9243715A54DF100F10272 /* BackUp in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9243515A54DF100F10272 /* BackUp */; };
+		3FB5FB7E15A5058E00F8573C /* Char1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB7D15A5058E00F8573C /* Char1.png */; };
+		3FB5FB8015A5059B00F8573C /* Char2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB7F15A5059B00F8573C /* Char2.png */; };
+		3FB5FB8215A505A000F8573C /* Char3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB8115A505A000F8573C /* Char3.png */; };
+		3FB5FB8415A505A300F8573C /* Char4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB5FB8315A505A300F8573C /* Char4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +55,38 @@
 		3F52564315A21A35005F0410 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F52564515A21A35005F0410 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3F52564715A21A35005F0410 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3F52564B15A21A35005F0410 /* finalProject-Info.plist */ = {isa = PBXFileReference; path = "finalProject-Info.plist"; sourceTree = "<group>"; };
+		3F52564B15A21A35005F0410 /* finalProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "finalProject-Info.plist"; sourceTree = "<group>"; };
 		3F52564D15A21A35005F0410 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F52564F15A21A35005F0410 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F52565115A21A35005F0410 /* finalProject-Prefix.pch */ = {isa = PBXFileReference; path = "finalProject-Prefix.pch"; sourceTree = "<group>"; };
-		3F52565215A21A35005F0410 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F52565115A21A35005F0410 /* finalProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "finalProject-Prefix.pch"; sourceTree = "<group>"; };
+		3F52565215A21A35005F0410 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F52565315A21A35005F0410 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3F52565615A21A35005F0410 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3F52565815A21A35005F0410 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3F52565815A21A35005F0410 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3F52565915A21A35005F0410 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F52566015A21A35005F0410 /* finalProjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalProjectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F52566115A21A35005F0410 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3F52566915A21A35005F0410 /* finalProjectTests-Info.plist */ = {isa = PBXFileReference; path = "finalProjectTests-Info.plist"; sourceTree = "<group>"; };
+		3F52566915A21A35005F0410 /* finalProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "finalProjectTests-Info.plist"; sourceTree = "<group>"; };
 		3F52566B15A21A35005F0410 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3F52566D15A21A35005F0410 /* finalProjectTests.h */ = {isa = PBXFileReference; path = finalProjectTests.h; sourceTree = "<group>"; };
+		3F52566D15A21A35005F0410 /* finalProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = finalProjectTests.h; sourceTree = "<group>"; };
 		3F52566E15A21A35005F0410 /* finalProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = finalProjectTests.m; sourceTree = "<group>"; };
+		3F52567815A22C72005F0410 /* My Character.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "My Character.png"; sourceTree = "<group>"; };
+		3F52567A15A241FA005F0410 /* FULL BACK.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FULL BACK.psd"; sourceTree = "<group>"; };
+		3F52567C15A242B2005F0410 /* FULL BACKPNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FULL BACKPNG.png"; sourceTree = "<group>"; };
+		3F52568615A26F02005F0410 /* platform-1 long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "platform-1 long.png"; sourceTree = "<group>"; };
+		3F52568815A26F0C005F0410 /* platform-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "platform-1.png"; sourceTree = "<group>"; };
+		3F52568C15A3F99F005F0410 /* possibleFINALBACKMAYBE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = possibleFINALBACKMAYBE.png; sourceTree = "<group>"; };
+		3F5256D615A4E177005F0410 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3F5256DF15A4E27E005F0410 /* Teleport.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Teleport.wav; sourceTree = "<group>"; };
+		3F5256E315A4E5D0005F0410 /* teleporter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = teleporter.mp3; sourceTree = "<group>"; };
+		3F5256E515A4E6F1005F0410 /* Goomba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Goomba.png; sourceTree = "<group>"; };
+		3F5256E715A4E73E005F0410 /* Spiny2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spiny2.png; sourceTree = "<group>"; };
+		3FA9243215A54DCA00F10272 /* BackUp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BackUp; path = ../../../BackUp; sourceTree = "<group>"; };
+		3FA9243515A54DF100F10272 /* BackUp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BackUp; path = ../../../BackUp; sourceTree = "<group>"; };
+		3FB5FB7D15A5058E00F8573C /* Char1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Char1.png; sourceTree = "<group>"; };
+		3FB5FB7F15A5059B00F8573C /* Char2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Char2.png; sourceTree = "<group>"; };
+		3FB5FB8115A505A000F8573C /* Char3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Char3.png; sourceTree = "<group>"; };
+		3FB5FB8315A505A300F8573C /* Char4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Char4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5256D715A4E177005F0410 /* AVFoundation.framework in Frameworks */,
 				3F52564415A21A35005F0410 /* UIKit.framework in Frameworks */,
 				3F52564615A21A35005F0410 /* Foundation.framework in Frameworks */,
 				3F52564815A21A35005F0410 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +117,8 @@
 		3F52563415A21A35005F0410 = {
 			isa = PBXGroup;
 			children = (
+				3FB5FB7C15A5057F00F8573C /* Chars */,
+				3F5256D615A4E177005F0410 /* AVFoundation.framework */,
 				3F52564915A21A35005F0410 /* finalProject */,
 				3F52566715A21A35005F0410 /* finalProjectTests */,
 				3F52564215A21A35005F0410 /* Frameworks */,
@@ -116,6 +154,18 @@
 				3F52565515A21A35005F0410 /* MainStoryboard.storyboard */,
 				3F52565815A21A35005F0410 /* ViewController.h */,
 				3F52565915A21A35005F0410 /* ViewController.m */,
+				3FA9243215A54DCA00F10272 /* BackUp */,
+				3FA9243515A54DF100F10272 /* BackUp */,
+				3F52567815A22C72005F0410 /* My Character.png */,
+				3F52567A15A241FA005F0410 /* FULL BACK.psd */,
+				3F52567C15A242B2005F0410 /* FULL BACKPNG.png */,
+				3F52568615A26F02005F0410 /* platform-1 long.png */,
+				3F5256E515A4E6F1005F0410 /* Goomba.png */,
+				3F52568815A26F0C005F0410 /* platform-1.png */,
+				3F5256E715A4E73E005F0410 /* Spiny2.png */,
+				3F52568C15A3F99F005F0410 /* possibleFINALBACKMAYBE.png */,
+				3F5256E315A4E5D0005F0410 /* teleporter.mp3 */,
+				3F5256DF15A4E27E005F0410 /* Teleport.wav */,
 				3F52564A15A21A35005F0410 /* Supporting Files */,
 			);
 			path = finalProject;
@@ -149,6 +199,17 @@
 				3F52566A15A21A35005F0410 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FB5FB7C15A5057F00F8573C /* Chars */ = {
+			isa = PBXGroup;
+			children = (
+				3FB5FB7D15A5058E00F8573C /* Char1.png */,
+				3FB5FB7F15A5059B00F8573C /* Char2.png */,
+				3FB5FB8115A505A000F8573C /* Char3.png */,
+				3FB5FB8315A505A300F8573C /* Char4.png */,
+			);
+			name = Chars;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +284,21 @@
 			files = (
 				3F52564E15A21A35005F0410 /* InfoPlist.strings in Resources */,
 				3F52565715A21A35005F0410 /* MainStoryboard.storyboard in Resources */,
+				3F52567915A22C72005F0410 /* My Character.png in Resources */,
+				3F52567D15A242B2005F0410 /* FULL BACKPNG.png in Resources */,
+				3F52568715A26F02005F0410 /* platform-1 long.png in Resources */,
+				3F52568915A26F0C005F0410 /* platform-1.png in Resources */,
+				3F52568D15A3F99F005F0410 /* possibleFINALBACKMAYBE.png in Resources */,
+				3F5256E015A4E27E005F0410 /* Teleport.wav in Resources */,
+				3F5256E415A4E5D0005F0410 /* teleporter.mp3 in Resources */,
+				3F5256E615A4E6F1005F0410 /* Goomba.png in Resources */,
+				3F5256E815A4E73E005F0410 /* Spiny2.png in Resources */,
+				3FB5FB7E15A5058E00F8573C /* Char1.png in Resources */,
+				3FB5FB8015A5059B00F8573C /* Char2.png in Resources */,
+				3FB5FB8215A505A000F8573C /* Char3.png in Resources */,
+				3FB5FB8415A505A300F8573C /* Char4.png in Resources */,
+				3FA9243315A54DCA00F10272 /* BackUp in Resources */,
+				3FA9243615A54DF100F10272 /* BackUp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +307,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F52566C15A21A35005F0410 /* InfoPlist.strings in Resources */,
+				3F52567B15A241FA005F0410 /* FULL BACK.psd in Resources */,
+				3FA9243715A54DF100F10272 /* BackUp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +507,7 @@
 				3F52567415A21A35005F0410 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F52567515A21A35005F0410 /* Build configuration list for PBXNativeTarget "finalProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +516,7 @@
 				3F52567715A21A35005F0410 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
